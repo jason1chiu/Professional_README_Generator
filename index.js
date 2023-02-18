@@ -26,7 +26,7 @@ const questions = [
    if (title) {
     return true;
    } else {
-    console.log('What is your project title?!')
+    console.log('What was your motivation?!')
     return false;
    }
  },
@@ -38,7 +38,7 @@ const questions = [
    if (title) {
     return true;
    } else {
-    console.log('What is your project title?!')
+    console.log('Why did you build this project?!')
     return false;
    }
   },
@@ -51,7 +51,7 @@ const questions = [
    if (title) {
     return true;
    } else {
-    console.log('What is your project title?!')
+    console.log('What problem does it solve?!')
     return false;
    }
   }
@@ -64,7 +64,7 @@ const questions = [
    if (title) {
     return true;
    } else {
-    console.log('What is your project title?!')
+    console.log('What did you learn?!')
     return false;
    }
   }
@@ -77,7 +77,7 @@ const questions = [
    if (title) {
     return true;
    } else {
-    console.log('What is your project title?!')
+    console.log('What are the steps required to install your project?! Provide a step-by-step description of how to get the development environment running!')
     return false;
    }
   }
@@ -106,7 +106,7 @@ const questions = [
   type: 'list',
   message: 'Let other developers know what they can and cannot do with your project.',
   name: 'license',
-  choices: ['Apache License 2.0', 'GNU GPL v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU AGPL v3.0', 'GNU GPL v2.0', 'GNU LGPL v3.0', 'Mozilla Public License 2.0', 'The Unilicense']
+  choices: ['None', 'Apache License 2.0', 'GNU GPL v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU AGPL v3.0', 'GNU GPL v2.0', 'GNU LGPL v3.0', 'Mozilla Public License 2.0', 'The Unilicense']
  }
 ];
 
