@@ -10,12 +10,12 @@ const questions = [
     message: 'What is your project title?',
     name: 'title',
     validate: title => {
-    if (title) {
-      return true;
-    } else {
-      console.log('What is your project title?!')
-      return false;
-    }
+      if (title) {
+        return true;
+      } else {
+        console.log('What is your project title?!')
+        return false;
+      }
     }
   },
   {
@@ -23,12 +23,12 @@ const questions = [
     message: 'What was your motivation?',
     name: 'motivation',
     validate: title => {
-    if (title) {
-      return true;
-    } else {
-      console.log('What was your motivation?!')
-      return false;
-    }
+      if (title) {
+        return true;
+      } else {
+        console.log('What was your motivation?!')
+        return false;
+      }
     }
   },
   {
@@ -36,12 +36,12 @@ const questions = [
     message: 'Why did you build this project?',
     name: 'reason',
     validate: title => {
-    if (title) {
-      return true;
-    } else {
-      console.log('Why did you build this project?!')
-      return false;
-    }
+      if (title) {
+        return true;
+      } else {
+        console.log('Why did you build this project?!')
+        return false;
+      }
     },
   },
   {
@@ -49,12 +49,12 @@ const questions = [
     message: 'What problem does it solve?',
     name: 'solution',
     validate: title => {
-    if (title) {
-      return true;
-    } else {
-      console.log('What problem does it solve?!')
-      return false;
-    }
+      if (title) {
+        return true;
+      } else {
+        console.log('What problem does it solve?!')
+        return false;
+      }
     }
   },
   {
@@ -62,12 +62,12 @@ const questions = [
     message: 'What did you learn?',
     name: 'learn',
     validate: title => {
-    if (title) {
-      return true;
-    } else {
-      console.log('What did you learn?!')
-      return false;
-    }
+      if (title) {
+        return true;
+      } else {
+        console.log('What did you learn?!')
+        return false;
+      }
     }
   },
   {
@@ -76,11 +76,11 @@ const questions = [
     name: 'installation',
     validate: title => {
     if (title) {
-      return true;
-    } else {
-      console.log('What are the steps required to install your project?! Provide a step-by-step description of how to get the development environment running!')
-      return false;
-    }
+        return true;
+      } else {
+        console.log('What are the steps required to install your project?! Provide a step-by-step description of how to get the development environment running!')
+        return false;
+      }
     }
   },
   {
@@ -112,10 +112,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, 
+    (err) => err ? console.error(Error) : console.log("README.md Successfully Created!"))
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions)
+    .then((response) => {
+      console.log(response);
+      writeToFile('README.md', generateMarkdown(response));
+    });
+}
 
 // Function call to initialize app
 init();
