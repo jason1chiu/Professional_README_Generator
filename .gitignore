@@ -1,7 +1,7 @@
 # Logs
 .vscode
 package-lock.json
-.DS_Store
+.DS_Store/
 logs
 *.log
 npm-debug.log*
