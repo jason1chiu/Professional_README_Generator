@@ -86,7 +86,15 @@ const questions = [
   {
     type: 'input',
     message: 'Provide instructions and examples for use. Include screenshots as needed.',
-    name: 'usage'
+    name: 'usage',
+    validate: usage => {
+      if (usage) {
+        return true;
+      } else {
+        console.log('Provide instructions and examples for use. Include screenshots as needed!')
+        return false;
+      }
+    }
   },
   {
     type: 'input',
