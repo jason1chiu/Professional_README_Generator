@@ -1,2 +1,3 @@
-# jffjf
-
+# README Generator
+  ## Description
+  My motivation to create the README Generator is to encourage developers to always include a README.md file for their projects such that users can understand what my project does.   I built this project because I wanted to let developers like myself to easily generate a README.md file describing my project like this README.md file you are currently reading. It solves the problems to create a detailed README.md such as giving the project title, describing what the project does, installing and using the project, acknowledge the other collaborators, third-party assets, and tutorials to help build a project, and providing the license used, if any, for a project. I learned how to use the command line in the terminal to ask a few questions to generate a descriptive README.md file using JavaScript, node.js and npm.

@@ -22,8 +22,8 @@ const questions = [
     type: 'input',
     message: 'What was your motivation?',
     name: 'motivation',
-    validate: title => {
-      if (title) {
+    validate: motivation => {
+      if (motivation) {
         return true;
       } else {
         console.log('What was your motivation?!')
@@ -35,8 +35,8 @@ const questions = [
     type: 'input',
     message: 'Why did you build this project?',
     name: 'reason',
-    validate: title => {
-      if (title) {
+    validate: reason => {
+      if (reason) {
         return true;
       } else {
         console.log('Why did you build this project?!')
@@ -48,8 +48,8 @@ const questions = [
     type: 'input',
     message: 'What problem does it solve?',
     name: 'solution',
-    validate: title => {
-      if (title) {
+    validate: solution => {
+      if (solution) {
         return true;
       } else {
         console.log('What problem does it solve?!')
@@ -61,8 +61,8 @@ const questions = [
     type: 'input',
     message: 'What did you learn?',
     name: 'learn',
-    validate: title => {
-      if (title) {
+    validate: learn => {
+      if (learn) {
         return true;
       } else {
         console.log('What did you learn?!')
@@ -74,8 +74,8 @@ const questions = [
     type: 'input',
     message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     name: 'installation',
-    validate: title => {
-    if (title) {
+    validate: installation => {
+    if (installation) {
         return true;
       } else {
         console.log('What are the steps required to install your project?! Provide a step-by-step description of how to get the development environment running!')
