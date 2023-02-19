@@ -39,7 +39,7 @@ function renderLicenseLink(license) {
   } else if (license === 'GNU General Public License v3.0') {
     return `The application is covered under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0).`;
   } else if (license === 'MIT License') {
-    return `The application is covered under the [MIT License](https://opensource.org/licenses/MIT)`;
+    return `The application is covered under the [MIT License](https://opensource.org/licenses/MIT).`;
   } else if (license === 'BSD 2-Clause "Simplified" License') {
     return `The application is covered under the [BSD 2-Clause "Simplified" License](https://opensource.org/licenses/BSD-2-Clause).`;
   } else if (license === 'BSD 3-Clause "New" or "Revised" License') {
