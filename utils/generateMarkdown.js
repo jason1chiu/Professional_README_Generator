@@ -84,6 +84,8 @@ function generateMarkdown(data) {
   3. [Credits](#credits)
   4. [License](#license)
 
+  ## Installation
+  ${data.installation}
 `;
 }
 
