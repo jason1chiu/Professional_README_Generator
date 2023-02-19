@@ -89,6 +89,16 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
+  ## Credits
+  ### Collaborators
+  ${data.collaborators}
+
+  ### Third-Party Assets
+  ${data.thirdParty}
+
+  ### Tutorials
+  ${data.tutorials}
 `;
 }
 

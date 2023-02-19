@@ -11,7 +11,17 @@
   4. [License](#license)
 
   ## Installation
-  1. Go to this [GitHub repository](https://github.com/jason1chiu/proREADMEgenerator/tree/main)<br>2. Git clone this repo using HTTPS or SSH.
+  Go to this GitHub repository
 
   ## Usage
   This README.md file is an example itself where I provided instructions on how to install and use my README Generator.
+
+  ## Credits
+  ### Collaborators
+  None
+
+  ### Third-Party Assets
+  [npm inquirer v8.2.5](https://www.npmjs.com/package/inquirer/v/8.2.5)
+
+  ### Tutorials
+  None
