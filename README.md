@@ -15,10 +15,11 @@ The driving force behind my creation of a README Generator is to promote the con
 ## Installation
 1. Go to this GitHub repository
 2. Git clone this repo using HTTPS or SSH into a folder of your choice.
-3. Install [npm inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4).
+3. Install [node.js](https://nodejs.org/en/).
+4. Install [npm inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
 ## Usage
-Exemplifying the functionality of my README Generator, this very README.md file was created using the tool. To utilize the generator, simply install it and execute the code in the terminal. The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md file. You can then find the newly generated file in the same folder where you cloned this repository. A video in the [Test](#test) section will demonstrates how to use the README Generator.
+Exemplifying the functionality of my README Generator, this very README.md file was created using the tool. To utilize the generator, simply follow the steps in the Installation section, and execute the code in the terminal beginning with "node index". The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md file. You can then find the newly generated file in the same folder where you cloned this repository. A video in the [Test](#test) section will demonstrates how to use the README Generator.
 
 ## Credits
 ### Collaborators
