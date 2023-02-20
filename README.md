@@ -13,7 +13,7 @@ The driving force behind my creation of a README Generator is to promote the con
 7. [Questions](#questions)
 
 ## Installation
-<br>1. Go to this [Github Repo](http://github.com/jason1chiu/Professional_README_Generator).<br>2. Git clone this repo using HTTPS or SSH into a folder of your choice.<br>3. Install [node.js](https://nodejs.org/en/).<br>4. Install [npm inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4).
+<br>1. Go to this [Github repo](https://github.com/jason1chiu/Professional_README_Generator).<br>2. Git clone this repo using  HTTPS or SSH into a folder of your choice.<br>3. Install [node.js](https://nodejs.org/en/).<br>4. Install [npm inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
 ## Usage
 Exemplifying the functionality of my README Generator, this very README.md was created using the tool. To utilize the generator, simplity follow the steps for installation, and execute the code in the terminal beginning with "node index". The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md. You can then find the newly generated file in the same folder where you cloned this respository. A video in the [Test](#test) section shows a demonstration on how to use the README Generator.
@@ -39,8 +39,8 @@ To construct the Description and Credits sections of the README, I adhere to the
 7. Merge your pull request.
 
 ## Test
-[https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view](https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view)
+https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view
 
 ## Questions
-If you like to see my other projects, my GitHub username is [jason1chiu](https://github.com/jason1chiu) and my GitHub profile is [https://github.com/jason1chiu](https://github.com/jason1chiu). <br>
+If you like to see my other projects, my GitHub username is [jason1chiu](https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view) and my GitHub profile is [https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view](https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view). <br>
 Furthermore you may email me at jasonchiu2@yahoo.com if you have any additional questions.
