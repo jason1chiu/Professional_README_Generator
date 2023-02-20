@@ -122,7 +122,7 @@ ${data.feature}
 7. Merge your pull request.
 
 ## Test
-An video example of how to test my README Generator can be found [here](${data.video});
+(${data.video})
 
 ## Questions
 If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). <br>
