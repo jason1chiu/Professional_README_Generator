@@ -82,56 +82,52 @@ function generateMarkdown(data) {
   let licenseSect = renderLicenseSection(data.license);
 
   return `# ${data.title}
-  
-  ## License
-  ${licenseSect}
+## License
+${licenseSect}
+## Description
+${data.motivation} ${data.reason} ${data.solution} ${data.learn}
+## Table of Contents:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Credits](#credits)
+4. [Features](#features)
+5. [Contribute](#contribute)
+6. [Test](#test)
+7. [Questions](#questions)
 
-  ## Description
-  ${data.motivation} ${data.reason} ${data.solution} ${data.learn}
+## Installation
+${data.installation}
 
-  ## Table of Contents:
+## Usage
+${data.usage}
 
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [Contributing](#contributing)
-  4. [Test](#test)
-  5. [Questions](#questions)
+## Credits
+### Collaborators
+${data.collaborators}
+### Third-Party
+${data.thirdParty}
+### Tutorials
+${data.tutorials}
 
-  ## Installation
-  ${data.installation}
+## Features
+${data.feature}
 
-  ## Usage
-  ${data.usage}
+## Contribute
+1. Fork the repository.
+2. Create a new branch.
+3. Write and test your code.
+4. Commit your changes with detailed comments.
+5. Push your changes to GitHub.
+6. Open a pull request.
+7. Merge your pull request.
 
-  ## Contributing
-  ### Collaborators
-  ${data.collaborators}
+## Tests
+An video example of how I created this specific README.md file can be found [here](${data.video});
 
-  ### Third-Party Assets
-  ${data.thirdParty}
-
-  ### Tutorials
-  ${data.tutorials}
-
-  ## Features
-  ${data.feature}
-
-  ## How to Contribute
-
-  1. Fork the repository.
-  2. Create a new branch.
-  3. Write and test your code.
-  4. Commit your changes with detailed comments.
-  5. Push your changes to GitHub.
-  6. Open a pull request.
-  7. Merge your pull request.
-
-  ## Test
-
-  ## Questions
-  If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). <br>
-  Furthermore you may email me at ${data.email} if you have any additional questions.
-  `
+## Questions
+If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). <br>
+Furthermore you may email me at ${data.email} if you have any additional questions.
+`
 }
 
 module.exports = generateMarkdown;

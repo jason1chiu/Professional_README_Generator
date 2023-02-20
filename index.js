@@ -124,6 +124,11 @@ const questions = [
   },
   {
     type: 'input',
+    message: 'Provide the link to the video of a test.',
+    name: 'video'
+  },
+  {
+    type: 'input',
     message: 'What is your GitHub username?',
     name: 'username'
   },
