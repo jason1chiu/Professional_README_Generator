@@ -92,7 +92,7 @@ ${data.motivation} ${data.reason} ${data.solution} ${data.learn}
 3. [Credits](#credits)
 4. [Features](#features)
 5. [Contribute](#contribute)
-6. [Test](#test)
+6. [Tests](#tests)
 7. [Questions](#questions)
 
 ## Installation
