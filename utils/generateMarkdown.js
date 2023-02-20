@@ -93,7 +93,7 @@ function generateMarkdown(data) {
 
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Credits](#credits)
+  3. [Collaborating](#collaborating)
   4. [Test](#test)
   5. [Questions](#questions)
 
@@ -114,14 +114,24 @@ function generateMarkdown(data) {
   ${data.tutorials}
 
   ## Features
+  ${data.feature}
 
   ## How to Contribute
+
+  1. Fork the repository.
+  2. Create a new branch.
+  3. Write and test your code.
+  4. Commit your changes with detailed comments.
+  5. Push your changes to GitHub.
+  6. Open a pull request.
+  7. Merge your pull request.
 
   ## Test
 
   ## Questions
+  If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). <br>
+  Furthermore you may email me at ${data.email} if you have any additional questions.
   `
-  
 }
 
 module.exports = generateMarkdown;

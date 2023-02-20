@@ -116,6 +116,26 @@ const questions = [
     message: 'Let other developers know what they can and cannot do with your project.',
     name: 'license',
     choices: ['None', 'Apache License 2.0', 'GNU GPL v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU AGPL v3.0', 'GNU GPL v2.0', 'GNU LGPL v3.0', 'Mozilla Public License 2.0', 'The Unilicense']
+  },
+  {
+    type: 'input',
+    message: 'List the features you added to your project.',
+    name: 'feature'
+  },
+  {
+    type: 'input',
+    message: 'What is your GitHub username?',
+    name: 'username'
+  },
+  {
+    type: 'input',
+    message: 'What is the link to your GitHub profile?',
+    name: 'profile'
+  },
+  {
+    type: 'input',
+    message: 'What is your email address?',
+    name: 'email'
   }
 ];
 
