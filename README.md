@@ -16,7 +16,7 @@ The driving force behind my creation of a README Generator is to promote the con
 <br>1. Go to this GitHub repository<br>2. Git clone this repo using HTTPS or SSH into a folder of your choice.
 
 ## Usage
-Exemplifying the functionality of my README Generator, this very README.md file was created using the tool. To utilize the generator, simply install it and execute the code in the terminal. The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md file. You can then find the newly generated file in the same folder where you cloned this repository. A video in the Test section will show you how to test out README Generator.
+Exemplifying the functionality of my README Generator, this very README.md file was created using the tool. To utilize the generator, simply install it and execute the code in the terminal. The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md file. You can then find the newly generated file in the same folder where you cloned this repository. A video in the [Test](#test) section will demonstrates how to use the README Generator.
 
 ## Credits
 ### Collaborators
