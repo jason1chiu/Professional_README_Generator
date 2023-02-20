@@ -4,13 +4,13 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) The application is covered under the [MIT License](https://opensource.org/licenses/MIT).
 
   ## Description
-  My motivation to create a README Generator is to encourage developers to always include professioanl README.md files for their projects so that users understand what their projects do. I built this project because I want to let developers like myself to easily generate README.md files describing projects such as this one. It solves the problem to create a detailed README.md file that should include the title, description, installation instructions, usage, credits and license for a project by asking a series of questions that developers should ask themselves when their project is ready to share. I learned how to use the command line in the terminal to ask questions and find responses to generate a descriptive README.md file using JavaScript, node.js, and npm.
+  The driving force behind my creation of a README Generator is to promote the consistent use of professional README.md files among developers, thereby enabling users to gain a clear understanding of the functionality and purpose of their projects. The impetus for constructing this project is to provide developers, including myself, with a simple means of generating descriptive README.md files for projects akin to this one. By prompting developers with a series of questions to consider when preparing their project for sharing, it resolves the challenge of crafting a comprehensive README.md file that incorporates crucial elements such as the title, description, installation instructions, usage guidelines, credits, and licensing information. Through the use of JavaScript, node.js, and npm, I acquired the knowledge to utilize the command line interface in the terminal to ask pertinent questions and retrieve corresponding answers, culminating in the generation of a descriptive README.md file.
 
   ## Table of Contents:
 
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Collaborating](#collaborating)
+  3. [Contributing](#contributing)
   4. [Test](#test)
   5. [Questions](#questions)
 
@@ -18,7 +18,7 @@
   <br>1. Go to this [GitHub repository](https://github.com/jason1chiu/proREADMEgenerator/tree/main)<br>2. Git clone this repo using HTTPS or SSH into a folder of your choice.
 
   ## Usage
-  This README.md file is an example itself where I used my README Generator. After installation, run the code in the terminal. You will be asked 15 questions. After answering each question, press ENTER. When you reach the last question, your command line should show "README.md Successfully Created!". In the folder that you clone this repository, a README.md file will appear.
+  Exemplifying the functionality of my README Generator, this very README.md file was created using the tool. To utilize the generator, simply install it and execute the code in the terminal. The program will subsequently prompt you with 15 inquiries; after responding to each prompt and pressing ENTER, you will reach the final question, upon which the command line will confirm the successful creation of the README.md file. You can then find the newly generated file in the same folder where you cloned this repository.
 
   ## Contributing
   ### Collaborators
@@ -31,7 +31,7 @@
   [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
   ## Features
-  For the Description section and the Contributing section, I followed the Professional README Guide to ask four separate questions to write up a good description, and divide the contributors into three different subsections, respectively. Finally, I included this Features section and How to Contribute section based on the Professional README Guide, which is a little more than what I was asked for to do.
+  To construct the Description and Contributing sections of the README, I adhered to the guidelines outlined in the Professional README Guide, which entailed posing four distinct inquiries to facilitate the creation of a well-crafted project summary and dividing the list of contributors into three separate subsections. In addition, I went beyond the original scope of the project by incorporating the Features and How to Contribute sections, drawing inspiration from the aforementioned Professional README Guide.
 
   ## How to Contribute
 

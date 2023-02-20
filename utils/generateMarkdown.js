@@ -93,7 +93,7 @@ function generateMarkdown(data) {
 
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Collaborating](#collaborating)
+  3. [Contributing](#contributing)
   4. [Test](#test)
   5. [Questions](#questions)
 
