@@ -121,7 +121,7 @@ ${data.feature}
 6. Open a pull request.
 7. Merge your pull request.
 
-## Tests
+## Test
 An video example of how I created this specific README.md file can be found [here](${data.video});
 
 ## Questions
