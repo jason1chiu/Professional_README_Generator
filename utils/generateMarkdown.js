@@ -92,7 +92,7 @@ ${data.motivation} ${data.reason} ${data.solution} ${data.learn}
 3. [Credits](#credits)
 4. [Features](#features)
 5. [Contribute](#contribute)
-6. [Tests](#tests)
+6. [Test](#test)
 7. [Questions](#questions)
 
 ## Installation
@@ -121,7 +121,7 @@ ${data.feature}
 6. Open a pull request.
 7. Merge your pull request.
 
-## Tests
+## Test
 An video example of how to test my README Generator can be found [here](${data.video});
 
 ## Questions
