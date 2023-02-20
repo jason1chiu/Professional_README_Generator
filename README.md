@@ -13,7 +13,7 @@ The driving force behind my creation of a README Generator is to promote the con
 7. [Questions](#questions)
 
 ## Installation
-1. Go to this GitHub repository
+1. Go to this [GitHub repository](https://github.com/jason1chiu/Professional_README_Generator).
 2. Git clone this repo using HTTPS or SSH into a folder of your choice.
 3. Install [node.js](https://nodejs.org/en/).
 4. Install [npm inquirer v8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4).
