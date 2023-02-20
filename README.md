@@ -41,10 +41,7 @@ To construct the Description and Credits sections of the README, I adhere to the
 ## Test
 https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view
 
-<img width="1862" alt="Terminal Prompts and Answers" src="https://user-images.githubusercontent.com/119711904/220025228-a106dd18-8e91-43de-9d8e-3ad74554e22a.png"><img width="2139" alt="Matching README Part 1" src="https://user-images.githubusercontent.com/119711904/220025262-b10baaf3-68d6-4a2f-baca-13af509829e1.png"><img width="1159" alt="Matching README Part 2" src="https://user-images.githubusercontent.com/119711904/220025288-9f1e55dc-3b59-4290-8048-1ee4972ed220.png">
-
-
-
+<img width="1862" alt="Terminal Prompts and Answers" src="https://user-images.githubusercontent.com/119711904/220025228-a106dd18-8e91-43de-9d8e-3ad74554e22a.png">
 
 ## Questions
 If you like to see my other projects, my GitHub username is [jason1chiu](https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view) and my GitHub profile is [https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view](https://drive.google.com/file/d/167UIqKGsOALgB_SVV4RMdxHP51OmXo7H/view). <br>
