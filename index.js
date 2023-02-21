@@ -155,7 +155,7 @@ function init() {
   inquirer.prompt(questions)
     .then((response) => {
       console.log(response);
-      writeToFile('README.md', generateMarkdown(response));
+      writeToFile('./sample/README.md', generateMarkdown(response));
     });
 }
 
