@@ -143,8 +143,7 @@ ${data.feature}
 [${data.video}]${data.video}
 
 ## Questions
-If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). <br>
-Furthermore you may email me at ${data.email} if you have any additional questions.
+If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). Furthermore you may email me at ${data.email} if you have any additional questions.
 `
 }
 
