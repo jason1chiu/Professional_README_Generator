@@ -82,11 +82,11 @@ function installationSteps(installation) {
   if (installation !== '') {
     const stepsArray = installation.split(". ");
 
-    for (let i = 0; i < stepsArray.length - 1; i++) {
-      if (i == stepsArray.length) { 
+    for (let i = 0; i < stepsArray.length; i++) {
+      if (i === stepsArray.length) { 
         return; 
       } else {
-        steps += `${i+1}. ${stepsArray[i]}.\n`;
+        steps += `${i+1}. ${stepsArray[i]}\n`;
       }
     }
   }
@@ -140,7 +140,7 @@ ${data.feature}
 7. Merge your pull request.
 
 ## Test
-[${data.video}]${data.video}
+[${data.video}](${data.video})
 
 ## Questions
 If you like to see my other projects, my GitHub username is [${data.username}](${data.profile}) and my GitHub profile is [${data.profile}](${data.profile}). Furthermore you may email me at ${data.email} if you have any additional questions.
