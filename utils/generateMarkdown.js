@@ -86,7 +86,7 @@ function installationSteps(installation) {
       if (i == stepsArray.length) { 
         return; 
       } else {
-        steps += `${i+1}. ${stepsArray[i]}\n`;
+        steps += `${i+1}. ${stepsArray[i]}.\n`;
       }
     }
   }
