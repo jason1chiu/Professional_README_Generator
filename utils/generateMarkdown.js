@@ -76,6 +76,24 @@ function renderLicenseSection(license) {
   }
 }
 
+function installationSteps(installation) {
+  let steps = '';
+
+  if (installation !== '') {
+    const stepsArray = installation.split(".");
+
+    for (let i = 0; i < stepsArray.length - 1; i++) {
+      if (i == stepsArray.length) { 
+        return; 
+      } else {
+        steps += `${i+1}. ${stepsArray[i]}.\n`;
+      }
+    }
+  }
+
+  return steps;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
@@ -96,7 +114,7 @@ ${data.motivation} ${data.reason} ${data.solution} ${data.learn}
 7. [Questions](#questions)
 
 ## Installation
-${data.installation}
+${installationSteps(data.installation)}
 
 ## Usage
 ${data.usage}
