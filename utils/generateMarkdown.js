@@ -80,7 +80,7 @@ function installationSteps(installation) {
   let steps = '';
 
   if (installation !== '') {
-    const stepsArray = installation.split(".");
+    const stepsArray = installation.split(". ");
 
     for (let i = 0; i < stepsArray.length - 1; i++) {
       if (i == stepsArray.length) { 
