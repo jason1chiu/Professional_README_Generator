@@ -1,4 +1,4 @@
-# Title
+# Project Title
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) The application is covered under the [MIT License](https://opensource.org/licenses/MIT).
 ## Description
@@ -13,19 +13,19 @@ Motivation. Reason. Solution. Learning.
 7. [Questions](#questions)
 
 ## Installation
-1. First.
-2. Second.
-3. Third..
+1. First
+2. Second
+3. Third.
 
 
 ## Usage
-Instructions and examples for use. Screenshots included.
+Instructions, examples for use and screenshots as needed.
 
 ## Credits
 ### Collaborators
-Collobarators
+[jason1chiu](https://github.com/jason1chiu)
 ### Third-Party
-Third-party Assets
+Third-Party Assets
 ### Tutorials
 Tutorials
 
@@ -42,7 +42,7 @@ Features.
 7. Merge your pull request.
 
 ## Test
-[www.yahoo.com]www.yahoo.com
+[www.yahoo.com](www.yahoo.com)
 
 ## Questions
 If you like to see my other projects, my GitHub username is [jason1chiu](https://github.com/jason1chiu) and my GitHub profile is [https://github.com/jason1chiu](https://github.com/jason1chiu). Furthermore you may email me at test@email.com if you have any additional questions.

@@ -134,11 +134,6 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'What is the link to your GitHub profile?',
-    name: 'profile'
-  },
-  {
-    type: 'input',
     message: 'What is your email address?',
     name: 'email'
   }
@@ -155,7 +150,7 @@ function init() {
   inquirer.prompt(questions)
     .then((response) => {
       console.log(response);
-      writeToFile('./sample/README.md', generateMarkdown(response));
+      writeToFile('./README.md', generateMarkdown(response));
     });
 }
 
