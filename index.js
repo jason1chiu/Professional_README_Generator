@@ -2,6 +2,7 @@
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
+const PORT = process.env.PORT || 3001;
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -156,3 +157,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
+app.listen(PORT, () => {
+  console.log(`Server listening on http://localhost:${PORT}`);
+});
